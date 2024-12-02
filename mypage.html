@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mypage-final.css">
+    <title>이상형 월드컵</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h2><a href="#">PICK</a></h2>
-        <nav>
-            <ul>
-                <li><a href="#">홈</a></li>
-                <li><a href="#">마이페이지</a></li>
-                <li><a href="#">이상형 월드컵 만들기</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo-and-menu">
+                <h1><a href="#" id="home-link">PICK PARADE</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="홈화면.html" id="home-link">홈</a></li>
+                        <li><a href="#" id="mypage-link">마이페이지 </a></li>
+                        <li><a href="#" id="create-link" onclick="checkLogin()">이상형 월드컵 만들기</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    
-
     <main>
-        <p>마이페이지</p>
+        <h2>마이페이지</h2>
         <div class="mypage">
             <div class="profile-photo">
-                <img id="imgThumb" src="https://static.nid.naver.com/images/web/user/default.png" alt="프로필 사진">
+                <img src="profile.jpg" alt="프로필 사진">
             </div>
 
             <div class="info">
@@ -33,10 +37,10 @@
         </div>
         </div>
     </main>
-
+    
     <footer>
-        © 2024 이상형 월드컵<br>
-        만든이 : 에이원하조
+        <p>© 2024 이상형 월드컵</p>
+        <p>만든 이: 에이원하조</p>
     </footer>
 </body>
 </html>
