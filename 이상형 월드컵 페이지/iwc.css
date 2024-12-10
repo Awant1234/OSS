@@ -117,5 +117,8 @@
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+    bottom: 0;
+    position: absolute;
+    width:100%;
     
 }
